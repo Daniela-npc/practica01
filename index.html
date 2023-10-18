@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name ="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Practica01</title>
+    <style>
+        h1{
+            color: blue;
+        }
+        blockquote{
+            background-color: yellow;
+            text-align: center;
+        }
+        h4{ text-align: right ;}
+        i{
+            color: green
+        }
+        a{
+            color: red
+        }
+        body{
+            background-image: url(images/anime-aesthetic.gif);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+              
+    </style>
+</head>    
+<body>
+    <div class="head">
+        <div class="inicio">
+            <a href="#">Inicio</a>
+        </div>
+        <nav class="navbar">
+            <a href="#1"><small><u>A</u></small></a>
+            <a href="#2">Ω</a>
+            <a href="#3">&amp;nbsp;</a>
+            <a href="#4">&#9776;</a>
+            <a href="#5">&#x1f4f7;&#xfe0e;</a>
+            <a href="#6">&#x275e;</a>
+        </nav>
+
+    </div>
+    <h1 id="1">
+        <small><u>A</u></small> Formato de texto</h1>
+    <h2>Negrita</h2>
+        <p>Una <strong style="color:red;">palabra clave</strong> relativamente importante para mi </p>
+    <h2>Italica o Cursiva</h2>
+        <h3><small>Las tendencias más<i> cool</i> del verano</small></h3>
+        <h3><small>Parafraseando a Einstein<i> Dios no juega a los dados</i></small></h3>
+        <h3><small>le dijo a manuel que <i>era un campeón</i></small></h3>
+    <h2>Subrayado y tachado</h2>
+        <h3><small><u>Esto es un texto subrayado</u></small></h3>
+        <h3><small>El hombre llegó a la luna en <del>1970</del><u>1969</u></small></h3>
+   
+<div id="2">
+    <h1>Ω &nbsp;Caracteres especiales</h1>
+    <ul style="list-style-type: disc;">
+        <li>;</li>
+        <li> &lt;</li>
+        <li>&gt;</li>
+        <li>&</li>
+        <li>´</li>
+        <li>"</li>
+        <li>\</li>
+        <li>/</li>
+        <li>&#169;</li>
+        <li></li>
+        <li> €</li>
+    </ul>
+</div>
+<div id="3">
+    <h1> &amp;nbsp; Espacios en blanco</h1>
+            <h3><small>El espacio en blanco se codifica como (<a>N</a>o<a>B</a>reak<a>SP</a>ace)</small></h3> 
+            <h3>Hola que tal</h3>
+            <h3>Hola &nbsp;que tal</h3>
+            <h3>Hola &nbsp; &nbsp; &nbsp; que tal</h3> 
+            <h3>Hola &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;que tal</h3>
+            <h3>Hola &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;que tal</h3>
+</div>   
+<div id="4">         
+    <h1>&#9776; Listas</h1>
+        <h2>Lista numerada</h2>
+            <ol style="list-style-type:decimal-leading-zeros;">
+                <li>Lorem, ipsum dolor sit amet consectetur adipisicing</li>
+                <li> elit. Quasi mollitia itaque provident magnam</li>
+                <li>voluptatum, error cum consectetur sit totam</li>
+                <li>ratione dolorem at ex inventore laboriosam </li>
+            </ol>
+</div>        
+    <h2>Lista no numerada</h2>
+        <ul style="list-style-type: disc;">
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+            <li>Perferendis rem praesentium ab, molestias iste quis? Nostrum fugiat</li>
+            <li>Nobis inventore impedit neque excepturi!</li>
+            <li>...</li>
+        </ul>
+    <h2>Lista anidada</h2>
+        <h2><small> &nbsp; Ejemplo 1 -Protócolos de la capa de aplicación</small></h2>
+            <ul style="list-style-type: disc;">
+                <li>Transmición de ficheros
+                    <ol style="list-style-type: circle;">
+                    <li>FTP</li>
+                    </ol>
+                </li>  
+                <li>Correo electrónico
+                    <ol>
+                    <li>IMAP</li>
+                    <li>POP</li>
+                    <li>SMTP</li>
+                    </ol>
+                </li>
+            </ul>
+        <h2><small>&nbsp; Ejemplo 2-Índice</small></h2>  
+            <ul style="list-style-type: decimals;">
+                <li>La comunicación
+                    <ol>
+                        <li>Conceptos</li>
+                        <li>Elementos de un sistema de comunicación</li>
+                        <li>Modos de transmición</li>
+                    </ol>
+                </li>  
+                <li>Concepto de red.Ventajas
+                    <ol>
+                        <li>Concepto de red</li>
+                        <li>Ventajas de las redes</li>
+                    </ol>
+                </li>
+                <li>Topologías de red 
+                    <ol>
+                        <li>Topología en estrella</li>
+                        <li>Topología en bus</li>
+                        <li>Topología en anillo</li>
+                        <li>Topología en árbol( estrella jerárquica)</li>
+                        <li>Topología en malla</li>
+                    </ol>
+                </li>
+            </ul> 
+        <h2><small>&nbsp;Ejemplo 3-Mixto</small></h2>
+            <ul style="list-style-type: decimals;">
+                <li>Mamiferos
+                    <ol style="list-style-type: circle;">
+                        <li>Gato</li>
+                        <li>Perro</li>
+                    </ol>
+                </li>  
+                <li>Pájaros
+                    <ol style="list-style-type: circle;">
+                        <li>Paloma</li>
+                        <li>Gorrión</li>
+                    </ol>
+                </li>
+                <li>Peces
+                    <ol style="list-style-type: circle;">
+                        <li>Tiburón</li>
+                        <li>Sardina</li>
+                        <li>Atún</li>
+                    </ol>
+                </li>
+            </ul>
+    <div id="5">
+        <h1> &#x1f4f7;&#xfe0e; Imagen centrada</h1>
+            <img src="images/IWillAlwaysFindYou.jpg" alt="IWillAlwaysFindYou">    
+    </div>
+    <div id="6">
+        <h1> &#x275e; Cita célebre</h1>
+            <blockquote>
+                <i style="color: black;">Todas las piezas deben unirse sin ser forzadas. Debe recordar que 
+                los componentes que está reensamblando fueron desmontados por 
+                usted, por lo que si no puede unirlos debe existir una razón. Pero 
+                sobre todo, no use un martillo.</i>
+            </blockquote>
+        <h4><small><i style="color: black;">manual de mantenimiento IBM, año 1925</i></small></h4>
+    </div>
+</body>
+</html>
